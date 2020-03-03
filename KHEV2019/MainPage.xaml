@@ -1,0 +1,22 @@
+﻿<Page x:Class="KHEV2019.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KHEV2019"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainPage">
+
+    <Grid Background="Gray">
+        <Button Content="Products" HorizontalAlignment="Left" Margin="30,82,0,0" VerticalAlignment="Top" Width="271" Height="150" Click="Product_Click_1" FontFamily="Microsoft Tai Le" FontSize="24" FontWeight="Bold"/>
+        <Button Content="Orders" HorizontalAlignment="Left" Margin="444,82,0,0" VerticalAlignment="Top" Width="271" Height="150" Click="Orders_Click_2" FontFamily="Microsoft Tai Le" FontSize="24" FontWeight="Bold"/>
+        <Button Content="EXIT" HorizontalAlignment="Left" Margin="731,10,0,0" VerticalAlignment="Top" Width="59" Height="40" Click="LoginPage_Click_3" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold"/>
+        <Button Content="Users" HorizontalAlignment="Left" Margin="444,270,0,0" VerticalAlignment="Top" Width="271" Height="150" Click="User_Click_4" FontFamily="Microsoft Tai Le" FontSize="24" FontWeight="Bold"/>
+        <Button Content="XML" HorizontalAlignment="Left" Margin="30,270,0,0" VerticalAlignment="Top" Width="271" Height="150" Click="XML_Click" FontFamily="Microsoft Tai Le" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="UserText" HorizontalAlignment="Left" Margin="142,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Label Content="Main Menu" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" Height="67" Width="473" FontFamily="Microsoft Tai Le" FontSize="36" FontWeight="Bold"/>
+
+
+    </Grid>
+</Page>

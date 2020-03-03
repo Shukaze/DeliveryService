@@ -1,0 +1,35 @@
+﻿<Page x:Class="KHEV2019.ProductsUser"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KHEV2019"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ProductsUser">
+
+    <Grid Background="Gray" >
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Height="0" Margin="28,20,0,0" VerticalAlignment="Top" Width="0" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold"/>
+        <DataGrid x:Name="dataGrid1" HorizontalAlignment="Left" Height="264" Margin="34,146,0,0" VerticalAlignment="Top" Width="726" SelectionChanged="DataGrid1_SelectionChanged" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold" />
+        <Button x:Name="AddToBasket" Content="Add To Basket" HorizontalAlignment="Left" Margin="650,415,0,0" VerticalAlignment="Top" Width="110" Click="Add_to_Basket_btn" FontFamily="Microsoft Tai Le" FontSize="14" Height="26" FontWeight="Bold"/>
+        <TextBox x:Name="Counts" HorizontalAlignment="Left" Height="25" Margin="579,415,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold" />
+        <TextBox x:Name="Books_Id_1" Text="" Visibility="Hidden" HorizontalAlignment="Left" Height="26" Margin="86,37,0,0" Grid.Row="1" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Books_name_1" Visibility="Hidden" HorizontalAlignment="Left" Height="26" Margin="86,89,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Cost_1" Visibility="Hidden" HorizontalAlignment="Left" Height="26" Margin="86,190,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Count_1" Visibility="Hidden" HorizontalAlignment="Left" Height="26" Margin="86,235,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="119"/>
+        <TextBox Grid.Column="1" x:Name="Result" Visibility="Hidden" HorizontalAlignment="Left" Height="23" Margin="49,345,0,0" Grid.Row="1" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.2,0.239" TextChanged="Result_TextChanged"/>
+        <Button Content="&lt;-" HorizontalAlignment="Left" Margin="34,415,0,0" VerticalAlignment="Top" Width="77" Click="Button_Click" FontFamily="Microsoft Tai Le" FontSize="14" Height="27" FontWeight="Bold"/>
+        <TextBox x:Name="Books_Id_2" Visibility="Hidden" HorizontalAlignment="Left" Height="26" Margin="172,6,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="MaxCost" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="310,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="MinCost"  Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="74,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="From" Content="From"  Visibility="Hidden"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="34,76,0,0" Height="28" Width="53" FontSize="14" FontFamily="Microsoft Tai Le" FontWeight="Bold"/>
+        <Label x:Name="To" Content="To"  Visibility="Hidden" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="277,76,0,0" Height="28" Width="28" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="SrchTxt" Grid.ColumnSpan="2" Visibility="Hidden" HorizontalAlignment="Left" Height="23" Margin="130,31,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="686,76,0,0" VerticalAlignment="Top" Width="74" Height="28" RenderTransformOrigin="0.261,1.452" Click="search_btn" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold"/>
+        <TextBox  HorizontalAlignment="Left" Height="28" Margin="34,76,0,0" TextWrapping="Wrap" x:Name="FindTxt" VerticalAlignment="Top" Width="611" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold" />
+        <Button Content="All View" HorizontalAlignment="Left" Margin="43,115,0,0" VerticalAlignment="Top" Width="153" Height="23" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold" Click="All_View_Click"/>
+        <Button Content="Name" HorizontalAlignment="Left" Margin="266,115,0,0" VerticalAlignment="Top" Width="153" Height="23" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold" Click="Name_Click"/>
+        <Button Content="Cost" HorizontalAlignment="Left" Margin="491,115,0,0" VerticalAlignment="Top" Width="154" Height="23" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold" Click="Cost_Click"/>
+        <Label Content="Products" HorizontalAlignment="Left" Margin="34,6,0,0" VerticalAlignment="Top" Height="61" Width="286" FontSize="36" FontWeight="Bold" FontFamily="Microsoft Tai Le"/>
+    </Grid>
+</Page>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KHEV2019.Address">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAEAAAAACAAAAFAAQAAAIASCCAAAAAQA=</HashCode>
+      <FileName>Address.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.Productss">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddProducts.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KHEV2019.Prod">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAABABAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddProducts.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KHEV2019.AddProducts" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAQCAAAABEAAAAAAACQAAAAAAAA=</HashCode>
+      <FileName>AddProducts.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KHEV2019.AllUser">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAgAAAAIAAAACAAAABAAAAAAJACAAAAAAAAA=</HashCode>
+      <FileName>AllUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.Basket">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAQEAgAAAACAAEABACAAAAAASACAAAAAQA=</HashCode>
+      <FileName>Basket.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.Card">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="KHEV2019.Card.Validator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Card.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAgAQEAAAAACAAAEBAAAAAAAACAKAAAAAQA=</HashCode>
+      <FileName>Card.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.DoOrder">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAQAAwAAAAAAAABAAAIgAAACAgAAAAAQA=</HashCode>
+      <FileName>DoOrder.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.LoginPage">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAACAAAEABAAAAAEAACAAAAAAAAA=</HashCode>
+      <FileName>LoginPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.MainPage">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAoAgBAAAAAABAAAABAAAAQA=</HashCode>
+      <FileName>MainPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.MainPageUser">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAIAAAAAAgAhAAAAAAAAAAAAAAAARA=</HashCode>
+      <FileName>MainPageUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.Products">
+    <Position X="1" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgDQAAAAEAAgDAAAAFACAAAAIASACAAIQAQA=</HashCode>
+      <FileName>Products.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.ProductsUser">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAiCQAAAAAAAACAAEBBACAAEQAACACAIIAAQA=</HashCode>
+      <FileName>ProductsUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.RegPage">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAEABAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>RegPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.ViewOrders">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAACEAAAAAAAAAAiAAEEBAAAAAAAACACAAIAAAA=</HashCode>
+      <FileName>ViewOrders.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.MainWindow">
+    <Position X="6.75" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="KHEV2019.MainWindow.pages" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MainWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KHEV2019.ViewOrderUsers">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAACAAAAAAAAAAACAAEABAAAAAAAACACAAIBAQA=</HashCode>
+      <FileName>ViewOrderUsers.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

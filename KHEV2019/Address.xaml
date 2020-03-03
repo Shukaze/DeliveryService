@@ -1,0 +1,27 @@
+﻿<Page x:Class="KHEV2019.Address"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KHEV2019"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Address">
+
+    <Grid Background="Gray">
+        <TextBox x:Name="City" HorizontalAlignment="Left" Height="24" Margin="594,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" FontSize="14" FontFamily="Microsoft Tai Le" FontWeight="Bold"/>
+        <TextBox x:Name="Street" HorizontalAlignment="Left" Height="29" Margin="594,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" FontSize="14" FontFamily="Microsoft Tai Le" FontWeight="Bold"/>
+        <TextBox x:Name="NumberH" HorizontalAlignment="Left" Height="24" Margin="594,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" FontSize="14" FontFamily="Microsoft Tai Le" FontWeight="Bold"/>
+        <Label Content="City" HorizontalAlignment="Left" Margin="594,117,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.478,0.557" FontSize="14" FontFamily="Microsoft Tai Le" FontWeight="Bold"/>
+        <Label Content="Street" HorizontalAlignment="Left" Margin="594,189,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Microsoft Tai Le" FontWeight="Bold"/>
+        <Label Content="House / apartment number" HorizontalAlignment="Left" Margin="594,269,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Microsoft Tai Le" FontWeight="Bold"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="594,347,0,0" VerticalAlignment="Top" Width="86" Height="32" FontSize="14" Click="Add_Click" FontFamily="Microsoft Tai Le" FontWeight="Bold"/>
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="687,384,0,0" VerticalAlignment="Top" Width="86" Height="32" FontSize="14" Click="Reset_Click" FontFamily="Microsoft Tai Le" FontWeight="Bold"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="299" Margin="10,117,0,0" VerticalAlignment="Top" Width="542" SelectionChanged="DataGrid_SelectionChanged" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold"/>
+        <Label Content="My Address" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="89" Width="334" FontSize="36" FontWeight="Bold" FontFamily="Microsoft Tai Le"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="687,347,0,0" VerticalAlignment="Top" Width="86" Height="32" FontSize="14" Click="Delete_Click" FontFamily="Microsoft Tai Le" FontWeight="Bold"/>
+        <Button Content="Go To Menu" HorizontalAlignment="Left" Margin="594,384,0,0" VerticalAlignment="Top" Width="86" Click="Back_Click" FontFamily="Microsoft Tai Le" FontSize="14" FontWeight="Bold" Height="32"/>
+        <TextBlock x:Name="UserTxt" Visibility="Hidden" HorizontalAlignment="Left" Margin="628,76,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

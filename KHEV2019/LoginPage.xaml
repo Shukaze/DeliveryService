@@ -1,0 +1,24 @@
+﻿<Page x:Class="KHEV2019.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KHEV2019"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+       Title="LoginPage" Background="Gray" >
+    <Grid>
+        <StackPanel Margin="0,82,0,77">
+            <Label Content="Login" Foreground="Black" FontSize="36" HorizontalAlignment="Center" FontFamily="Microsoft Tai Le" Margin="333,0,310,0" Width="157" FontWeight="Bold"/>
+            <Separator Margin="225,2,221,2"/>
+            <Label Content="Username" Foreground="Black" FontFamily="Britannic Bold" FontSize="16" FontWeight="Thin" Margin="311,0,310,0" Height="32"/>
+            <TextBox Text="{Binding User, Mode=TwoWay}" x:Name ="txtUsername" Foreground="Black" FontSize="18" BorderBrush="{x:Null}" FontFamily="Britannic Bold" FontWeight="Thin" Margin="311,0,310,0" Height="26">
+                </TextBox>
+            <Label Content="Password" Foreground="Black" FontFamily="Britannic Bold" FontSize="16" FontWeight="Thin" Margin="311,0,310,0" Height="32"/>
+            <PasswordBox x:Name="txtPassword" Foreground="Black" FontSize="18" BorderBrush="{x:Null}" FontFamily="Britannic Bold" FontWeight="Thin" Margin="311,0,310,0" Height="26">
+                </PasswordBox>
+            <Button x:Name="btnSubmit" Click="btnSubmit_Click" Content="Sign in" Margin="311,10,310,10" Foreground="Black" FontSize="14" BorderBrush="{x:Null}" FontFamily="Britannic Bold" Background="#FFD4CDCD" Height="32"/>
+            <Button Content="Registration" Click="Button_Click" FontFamily="Britannic Bold" Background="#FFD1C9C9" Foreground="Black" Margin="311,0,310,0" FontSize="14" Height="32"/>
+        </StackPanel>
+    </Grid>
+</Page>
